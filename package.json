@@ -1,0 +1,12 @@
+{
+  "name": "webJuice",
+  "version": "0.1.0",
+  "description": "Simple web scraper",
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/pirvudoru/webJuice.git"
+  },
+  "author": "pirvudoru",
+  "license": "MPL-2.0",
+  "main": "app.js"
+}
