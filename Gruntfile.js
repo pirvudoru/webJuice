@@ -2,10 +2,10 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     jasmine: {
-      vendor: [
-        'node_modules/requirejs/require.js'
+      src: [
+        'node_modules/requirejs/require.js',
+        'app.js'
       ],
-      src: 'app.js',
       options: {
         specs: 'spec/**/*Spec.js',
         helpers: 'spec/*Helper.js'
